@@ -1,0 +1,22 @@
+.wraper {
+  overflow: hidden;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 255, 255),
+    rgb(0, 128, 192)
+  );
+  width: 100%;
+  padding: 200px;
+}
+
+.wraper button {
+  margin: 20px;
+  background: red;
+  border-radius: 0px;
+  transition-duration: 0.4s;
+}
+
+.wraper button:hover {
+  background: #64c2ec;
+  color: red;
+}
